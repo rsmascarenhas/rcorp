@@ -1,0 +1,127 @@
+header{
+        padding: 10px;
+}
+
+#headI{
+
+    background-color: cornflowerblue;
+    float: left;
+    width: 20%;
+    height: 90px;
+    border-radius: 0px  50px 50px 0px;
+}
+
+#headM{
+    background-color: #ffffff;
+    float: left;
+    width: 5%;
+    height: 92px;
+    position: absolute;
+    margin-left: 263px;
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    border-radius: 0px 50px 50px 0px;
+    display: block;
+}
+
+h2{
+    margin-left: 7%;
+    margin-top: 1%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.4rem;
+    color: rgb(59, 14, 165);
+}
+
+#headF{
+    background-color: lightskyblue;
+    float: right;
+    margin-left: 0px;
+    width: 80%;
+    height: 90px;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right-color: darkblue;
+}
+
+nav li {
+    border-bottom: solid 1px rgb(145, 0, 158);
+    border-left: solid 1px rgb(145, 0, 158);
+    border-top: solid 1px cyan;
+    border-right: solid 1px cyan;
+    border-radius: 10px;
+    background-color: rgb(248, 246, 246);
+    margin: 1.3rem;
+    font-family: sans-serif;
+    color: rgb(145, 0, 158);
+}
+
+nav li #div1{
+    display: inline;
+    width: 20% auto;
+}
+
+nav li #div2{
+    display: inline;
+    font-size: 23px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 30px;
+}
+
+#listnav{   
+    list-style: none;
+    list-style-type: none;
+}
+ a {
+     display: block;
+     text-decoration: none;
+ }
+
+article{
+    float: left;
+    width: 70%;
+    background-color: aquamarine;
+}
+
+#manut01{
+    border-radius: 0px 40px 0px 40px;
+    border-top: solid 2x cyan;
+    border-left: solid 2px rgb(145, 0, 158);
+    border-bottom: solid 2px rgb(145, 0, 158);
+    border-right: solid 2px cyan;
+}
+
+#area1{
+    float: left;
+    width: 20%;
+}
+#area2{
+    margin-left: 15px;
+    text-align: justify;
+    padding: 10px;
+    float: left;
+    width: 70%;
+    color: rgb(145, 0, 158);
+    
+}
+#area3{
+    
+    width: 100%;
+}
+footer{
+    color: firebrick;
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+
