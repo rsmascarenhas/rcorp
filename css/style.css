@@ -45,6 +45,7 @@ p{
     font-family: 'Smooch Sans', sans-serif;
     margin-bottom: 20px;
     line-height: 1.4;
+    text-align: justify;
 }
 section{
  font-size: 1.5rem;
@@ -88,9 +89,13 @@ section article{
 
 }
 
+.cog-branding--minimal{
+    visibility: hidden;
+}
 article img{
     padding: 30px;
 }
+
 footer{
     background-color: #4682B4;
     color: white;
